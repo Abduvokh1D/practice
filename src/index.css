@@ -7,3 +7,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.weather-main {
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.error {
+  color: red;
+  font-family: monospace;
+}
+.weather-window {
+  margin-top: 1rem;
+}
+input {
+  border-radius: 20px;
+  border: none;
+}
