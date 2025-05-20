@@ -5,7 +5,7 @@ export default function App() {
   const [color, setColor] = useState("green");
   useEffect(
     function () {
-      document.title = `Count ${count} ${color}`;
+      // document.title = `Count ${count} ${color}`;
     },
     [count, color]
   );
